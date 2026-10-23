@@ -1,13 +1,13 @@
 # 🛠️ Setup del proyecto en VS Code · macOS (hecho) y Windows (pendiente)
 
-> **Qué es:** cómo quedó preparado `demo-cobertura/` en el Mac, qué comandos usa la clase y qué
+> **Qué es:** cómo quedó preparado el proyecto (raíz del repo) en el Mac, qué comandos usa la clase y qué
 > falta para reproducirlo en el Windows. Versiones fijadas: Python 3.13.4, pytest 8.4.2,
 > pytest-cov 7.0.0, mutmut 3.3.1.
 
 ## 1. 📁 El proyecto
 
 ```
-demo-cobertura/
+mutation-tests-platzi-demo/
 ├── carrito.py              # la función que se muestra (10 líneas)
 ├── tests/test_carrito.py   # un test activo + el test «que faltaba» comentado
 ├── pyproject.toml          # dependencias fijadas, config de pytest y de mutmut
@@ -28,7 +28,7 @@ demo-cobertura/
 El entorno se creó con `uv` (ya estaba instalado) y **no se instaló nada global**:
 
 ```bash
-cd Entrevistas/Platzi-Video/demo-cobertura
+cd mutation-tests-platzi-demo
 uv venv --python 3.13 .venv
 uv pip install --python .venv/bin/python "pytest==8.4.2" "pytest-cov==7.0.0" "mutmut==3.3.1"
 ```
@@ -55,7 +55,7 @@ dependía de la versión). Se puede borrar.
 
 ## 3. ▶️ Los comandos de la clase, en orden
 
-Siempre desde `demo-cobertura/` y con el entorno activado:
+Siempre desde la raíz del repo y con el entorno activado:
 
 ```bash
 source .venv/bin/activate

@@ -11,7 +11,7 @@
 | 1b | [Guion de lectura previa](04-guion-lectura-previa.md) | La clase en prosa, de corrido, para leerla antes y asimilar el hilo. Sin teleprompter |
 | 2 | [Setup del proyecto](02-setup-proyecto.md) | Cómo dejar VS Code y la terminal listos en macOS (hecho) y en Windows (pendiente) |
 | 3 | [OBS en macOS](03-obs-macos.md) | Pantalla + cámara en la esquina inferior derecha + diadema, paso a paso; §7 con lo que cambia en Windows |
-| — | [`demo-cobertura/`](demo-cobertura/) | El proyecto que se muestra: `carrito.py`, un test, pytest-cov y mutmut, ya corridos |
+| — | [raíz del repo](../) | El proyecto que se muestra: `carrito.py`, un test, pytest-cov y mutmut, ya corridos |
 
 ## 🎯 El tema en una frase
 
@@ -27,7 +27,7 @@ como pide la guía; la cobertura de ramas y el CI quedan como «lo que sigue».
 1. Leer el guion y correr la demo a mano siguiendo [02](02-setup-proyecto.md) §3 (el guion lleva
    las salidas reales; nada debería sorprender).
 2. Ensayar en voz alta con cronómetro **al menos dos veces** (lo pide la guía). Meta: 4:00–4:30.
-   Entre ensayo y ensayo, `./reset.sh` dentro de `demo-cobertura/`.
+   Entre ensayo y ensayo, `./reset.sh` en la raíz del repo.
 3. Montar OBS siguiendo [03](03-obs-macos.md) y hacer **una grabación de prueba de 30 s**; verla
    completa: letra legible, cara en la esquina, voz sin ruido.
 

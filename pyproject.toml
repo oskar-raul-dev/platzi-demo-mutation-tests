@@ -1,0 +1,22 @@
+[project]
+name = "mutation-tests"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = ["pytest==8.4.2", "pytest-cov==7.0.0", "mutmut==3.8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.coverage.run]
+branch = false
+
+[tool.coverage.report]
+# El main de la demo no lo ejecutan los tests: fuera del cálculo.
+exclude_also = ['if __name__ == .__main__.:']
+
+[tool.mutmut]
+source_paths = ["carrito.py"]
+pytest_add_cli_args_test_selection = ["tests/"]
+

@@ -1,0 +1,100 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"lakshits11.best-themes-redefined",
+			"ryanluker.vscode-coverage-gutters"
+		]
+	},
+	"settings": {
+		"workbench.colorTheme": "Best Themes - Github Dark",
+		"editor.minimap.enabled": false,
+		"editor.fontSize": 20,
+		"editor.inlineSuggest.enabled": false,
+		"editor.quickSuggestions": { "other": "off", "comments": "off", "strings": "off" },
+		"editor.suggestOnTriggerCharacters": false,
+		"editor.wordBasedSuggestions": "off",
+		"editor.snippetSuggestions": "none",
+		"editor.parameterHints.enabled": false,
+		"editor.acceptSuggestionOnEnter": "off",
+		"github.copilot.enable": { "*": false },
+		"chat.disableAIFeatures": true,
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"editor.fontFamily": "'Lucida Console', Menlo, Monaco, 'Courier New', monospace",
+		"zenMode.hideLineNumbers": false,
+		"zenMode.hideStatusBar": false,
+		"zenMode.centerLayout": false,
+		"zenMode.hideActivityBar": false,
+		"editor.stickyScroll.enabled": false,
+		"terminal.integrated.fontFamily": "'Lucida Console', Menlo, Monaco, 'Courier New', monospace",
+		"workbench.colorCustomizations": {
+			"terminal.background": "#24292e",
+			"terminal.foreground": "#d1d5da",
+			"terminalCursor.background": "#24292e",
+			"terminalCursor.foreground": "#d1d5da",
+			"terminal.ansiBlack": "#586069",
+			"terminal.ansiBlue": "#2188ff",
+			"terminal.ansiBrightBlack": "#959da5",
+			"terminal.ansiBrightBlue": "#79b8ff",
+			"terminal.ansiBrightCyan": "#56d4dd",
+			"terminal.ansiBrightGreen": "#85e89d",
+			"terminal.ansiBrightMagenta": "#b392f0",
+			"terminal.ansiBrightRed": "#f97583",
+			"terminal.ansiBrightWhite": "#fafbfc",
+			"terminal.ansiBrightYellow": "#ffea7f",
+			"terminal.ansiCyan": "#39c5cf",
+			"terminal.ansiGreen": "#34d058",
+			"terminal.ansiMagenta": "#b392f0",
+			"terminal.ansiRed": "#ea4a5a",
+			"terminal.ansiWhite": "#d1d5da",
+			"terminal.ansiYellow": "#ffea7f"
+		},
+		"terminal.integrated.mouseWheelZoom": false,
+		"terminal.integrated.fontSize": 18,
+		"terminal.integrated.shellIntegration.decorationsEnabled": "never",
+		"terminal.integrated.stickyScroll.enabled": false,
+		"terminal.integrated.env.osx": {
+			"ZDOTDIR": "${workspaceFolder}/.zsh-video"
+		},
+		"window.zoomLevel": 1,
+		"editor.mouseWheelZoom": false,
+		"claudeCode.useTerminal": true,
+		"claudeCode.useCtrlEnterToSend": true,
+		"workbench.editor.enablePreview": false,
+		"workbench.editor.enablePreviewFromQuickOpen": false,
+  		"workbench.editor.enablePreviewFromCodeNavigation": false,
+		"markdown.preview.fontSize": 18,
+		"editor.lineHeight": 26,
+		"editor.renderWhitespace": "none",
+		"editor.lineNumbers": "on",
+		"editor.cursorBlinking": "solid",
+		"editor.wordWrap": "off",
+		"workbench.activityBar.location": "hidden",
+		"workbench.statusBar.visible": false,
+		"breadcrumbs.enabled": false,
+		"terminal.integrated.lineHeight": 1.3,
+		"python.testing.pytestEnabled": true,
+		"coverage-gutters.showGutterCoverage": true,
+		"coverage-gutters.showLineCoverage": true,
+		"coverage-gutters.showRulerCoverage": false,
+		"coverage-gutters.watchOnActivate": true,
+		"python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+		"files.exclude": {
+			"**/.venv": true,
+			"**/.zsh-video": true,
+			"**/mutants": true,
+			"**/.pytest_cache": true,
+			"**/__pycache__": true,
+			"**/.coverage": true,
+			"**/coverage.xml": true,
+			"**/htmlcov": true,
+			"**/.mutmut-cache": true,
+			"**/uv.lock": true
+		}
+	}
+}

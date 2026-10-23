@@ -1,0 +1,5 @@
+    carrito.x_precio_final__mutmut_10: survived
+    carrito.x_precio_final__mutmut_11: survived
+    carrito.x_precio_final__mutmut_16: survived
+    carrito.x_precio_final__mutmut_18: survived
+    carrito.x_precio_final__mutmut_19: survived
